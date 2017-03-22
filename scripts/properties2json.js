@@ -1,7 +1,3 @@
-/*
- * Adapted from https://github.com/mozilla/donate.mozilla.org/blob/master/scripts/properties2json.js
- */
-
 var properties = require("properties-parser");
 var write = require("fs-writefile-promise");
 var path = require("path");
@@ -82,3 +78,4 @@ getListLocales(localeSrc)
 .catch(function(err) {
   console.error(err);
 });
+
